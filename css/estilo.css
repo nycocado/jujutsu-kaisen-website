@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+    font-family: verdana, helvetica, sans-serif;
+    background-color: lightgray
+}
+.header{
+    margin-top: 20px;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto; 
+}
+.logo{
+    width: 250px;
+}
+nav{
+    float: right;
+}
+nav li{
+    list-style: none;
+    position: relative;
+    float: left;
+    background-color: lightgray;
+    padding-top: 16px;
+    margin: 5px;
+}
+nav li a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px 20px;
+    display: block;
+}
+nav li a:hover{
+    background-color: red;
+    color: #ffffff;
+    border-radius: 30px;
+}
+.banner_01{
+    margin-top: 20px;
+    position: relative;
+}
+.img_banner{
+    width: 960px;
+}
+.text_banner_01{
+    position: absolute;
+    font-size: 23px;
+    top: 120px;
+    left: 50px;
+    color: #ffffff;
+}
+.bt_conheca{
+    background-color: red;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 20px
+}
+.sec_jujutsu{
+    text-align: center;
+}
+.sec_jujutsu img{
+    width: 235.7px;
+    margin-top: 3px
+}
+.bt_jujutsu{
+    position: absolute;
+    top: -30px;
+    left: 10px
+}
+.titulo_h1{
+    text-align: center; 
+    font-size: 30px;
+}
+.titulo_h2{
+    text-align: center
+}
+.img_sobre img{
+    width: 235.7px;
+}
+.formulario{
+    width: 500px;
+}
+.form{
+    float: left;
+    margin: 10px 0px;
+}
+.form label{
+    display: block;
+    width: 500px;
+}
+.nav_rodape li {
+    list-style: none;
+}
+.nav_rodape li a{
+    background-color:red;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    width: 160px;
+    padding: 5px 10px;
+    display: block;
+}
+.nav_rodape li a:hover {
+    background-color: darkred;
+}
+.coluna {
+    width: 300px;
+    padding: 10px 9px;
+    float: left;
+
+    text-align: center
+}
+.coluna a{
+    text-decoration: none;
+    color: #000000;
+    padding: 5px;
+    display: block;
+}
+.rodape{
+    clear: both;
+    background-color: #353839;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+@media screen and (max-width: 977px){
+    .container{
+        max-width: 700px;
+    }
+    .img_banner{
+        width: 700px;
+    }
+    .text_banner_01{
+        font-size: 16px;
+        top: 90px;
+        left: 30px;
+    }
+    .bt_conheca{
+        font-size: 13px;
+        padding: 8px 25px;
+    }
+}
+@media screen and (max-width: 717px){
+    .container{
+        max-width: 500px;
+    }
+    .img_banner{
+        width: 500px;
+    }
+    .titulo_h1{
+        font-size: 25px
+    }
+    .titulo_h2{
+        font-size: 20px
+    }
+}
+@media screen and (max-width: 517px){
+    .container{
+        max-width: 300px;
+    }
+    .img_banner{
+        width: 300px;
+    }
+    .text_banner_01{
+        font-size: 13px;
+        top: 130px;
+        left: 30px;
+    }
+    .bt_conheca{
+        font-size: 11px;
+        padding: 5px 15px;
+    }
+    .sec_jujutsu img{
+        width: 147.2px;
+        margin-top: 2px
+}
