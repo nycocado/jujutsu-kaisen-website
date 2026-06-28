@@ -1,25 +1,27 @@
 # jujutsu-kaisen-website
 
-Site de fãs de Jujutsu Kaisen — estrutura multi-página com HTML e CSS.
+Jujutsu Kaisen fan site — multi-page structure with HTML and CSS.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-3da639.svg)](LICENSE)
-![Status](https://img.shields.io/badge/status-concluído-6f42c1)
+![Status](https://img.shields.io/badge/status-completed-6f42c1)
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)](https://developer.mozilla.org/)
 [![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](https://developer.mozilla.org/)
 
-## Sobre
+[Portuguese](README.pt.md) | English
 
-Site estático de fãs dedicado ao anime/mangá Jujutsu Kaisen. Estrutura multi-página com homepage, página de personagens e página de contato. Inclui galeria de imagens, logotipos e design responsivo.
+## About
 
-## Como executar
+Static fan site dedicated to the Jujutsu Kaisen anime/manga. Multi-page structure with a homepage, characters page, and contact page. Includes an image gallery, logos, and responsive design.
 
-Abrir o `index.html` num navegador. Não requer servidor — funciona diretamente do ficheiro.
+## How to run
 
-## Licença
+Open `index.html` in a browser. No server required — works directly from the file.
 
-Distribuído sob a licença **MIT**, © 2021 Nycolas Souza.
+## License
 
-É uma licença permissiva: qualquer pessoa pode usar, copiar, modificar e distribuir o código, inclusive em projetos comerciais, desde que mantenha o aviso de copyright e o texto da licença.
+Distributed under the **MIT** license, © 2021 Nycolas Souza.
 
-O texto completo está em [LICENSE](LICENSE).
+It is a permissive license: anyone can use, copy, modify, and distribute the code, including in commercial projects, as long as the copyright notice and license text are retained.
+
+The full text is in [LICENSE](LICENSE).
